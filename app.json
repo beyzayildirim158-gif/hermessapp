@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "HermessApp",
-    "slug": "HermessApp",
+    "slug": "hermessapp",
+    "scheme": "hermessapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,23 +13,32 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.hermesshealing.HermessApp",
+      "buildNumber": "1.0.0",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
     },
+
     "android": {
+      "package": "com.hermesshealing.hermessapp",
+      "versionCode": 1,
+      "edgeToEdgeEnabled": true,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      }
     },
+
     "web": {
       "favicon": "./assets/favicon.png"
     },
+
+    "assetBundlePatterns": ["**/*"],
+
     "extra": {
       "eas": {
         "projectId": "373a40d7-3654-4794-9dbf-14e97bfc7c8e"
