@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# expo
+.expo/
+.expo-shared/
+
+# build outputs
+dist/
+build/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# env (varsa)
+.env
