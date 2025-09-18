@@ -13,16 +13,12 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.hermesshealing.HermessApp",
+      "bundleIdentifier": "com.hermesshealing.hermessapp",
       "buildNumber": "1.0.0",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+      "infoPlist": { "ITSAppUsesNonExemptEncryption": false }
     },
-
     "android": {
       "package": "com.hermesshealing.hermessapp",
       "versionCode": 1,
@@ -32,17 +28,8 @@
         "backgroundColor": "#ffffff"
       }
     },
-
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-
+    "web": { "favicon": "./assets/favicon.png" },
     "assetBundlePatterns": ["**/*"],
-
-    "extra": {
-      "eas": {
-        "projectId": "373a40d7-3654-4794-9dbf-14e97bfc7c8e"
-      }
-    }
+    "extra": { "eas": { "projectId": "373a40d7-3654-4794-9dbf-14e97bfc7c8e" } }
   }
 }
