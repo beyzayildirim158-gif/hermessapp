@@ -1,0 +1,21 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "app_events",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "event", "mode": "ASCENDING" },
+        { "fieldPath": "ts", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "app_events",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "event", "mode": "ASCENDING" },
+        { "fieldPath": "ts", "mode": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

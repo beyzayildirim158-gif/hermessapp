@@ -1,0 +1,28 @@
+{
+  "totalDocuments": 467,
+  "originalCategoryCounts": {
+    "Danışmanlıklar": 21,
+    "Blog": 131,
+    "Mühürler": 15,
+    "Doğal Taşlar": 229,
+    "Mağaza": 47,
+    "Eğitimler": 20,
+    "Tarot": 4
+  },
+  "inferredCategoryCounts": {
+    "Danışmanlıklar": 21,
+    "Blog": 131,
+    "Mühürler": 15,
+    "Doğal Taşlar": 229,
+    "Mağaza": 47,
+    "Eğitimler": 20,
+    "Tarot": 4
+  },
+  "mismatchCount": 0,
+  "mismatches": [],
+  "storeMisfits": [],
+  "zeroPriceNotBlog": [],
+  "blogWithPrice": [],
+  "missingImagesCount": 0,
+  "missingImagesSamples": []
+}

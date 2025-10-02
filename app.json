@@ -51,5 +51,11 @@
     "updates": {
       "url": "https://u.expo.dev/373a40d7-3654-4794-9dbf-14e97bfc7c8e"
     }
+  },
+  "commands": {
+    "list": {
+      "findstr": "github"
+    }
   }
 }
+

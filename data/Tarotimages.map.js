@@ -1,0 +1,98 @@
+const tarotImages = {
+ 
+    
+  // ===== Major Arcana (00..21)
+  "major_00": require("../assets/tarot/major_00.png"),
+  "major_01": require("../assets/tarot/major_01.png"),
+  "major_02": require("../assets/tarot/major_02.png"),
+  "major_03": require("../assets/tarot/major_03.png"),
+  "major_04": require("../assets/tarot/major_04.png"),
+  "major_05": require("../assets/tarot/major_05.png"),
+  "major_06": require("../assets/tarot/major_06.png"),
+  "major_07": require("../assets/tarot/major_07.png"),
+  "major_08": require("../assets/tarot/major_08.png"),
+  "major_09": require("../assets/tarot/major_09.png"),
+  "major_10": require("../assets/tarot/major_10.png"),
+  "major_11": require("../assets/tarot/major_11.png"),
+  "major_12": require("../assets/tarot/major_12.png"),
+  "major_13": require("../assets/tarot/major_13.png"),
+  "major_14": require("../assets/tarot/major_14.png"),
+  "major_15": require("../assets/tarot/major_15.png"),
+  "major_16": require("../assets/tarot/major_16.png"),
+  "major_17": require("../assets/tarot/major_17.png"),
+  "major_18": require("../assets/tarot/major_18.png"),
+  "major_19": require("../assets/tarot/major_19.png"),
+  "major_20": require("../assets/tarot/major_20.png"),
+  "major_21": require("../assets/tarot/major_21.png"),
+
+  // ===== Wands / Değnekler (01..10 + court)
+  "Wands_01": require("../assets/tarot/Wands_01.png"),
+  "Wands_02": require("../assets/tarot/Wands_02.png"),
+  "Wands_03": require("../assets/tarot/Wands_03.png"),
+  "Wands_04": require("../assets/tarot/Wands_04.png"),
+  "Wands_05": require("../assets/tarot/Wands_05.png"),
+  "Wands_06": require("../assets/tarot/Wands_06.png"),
+  "Wands_07": require("../assets/tarot/Wands_07.png"),
+  "Wands_08": require("../assets/tarot/Wands_08.png"),
+  "Wands_09": require("../assets/tarot/Wands_09.png"),
+  "Wands_10": require("../assets/tarot/Wands_10.png"),
+  "Wands_page": require("../assets/tarot/Wands_page.png"),
+  "Wands_knight": require("../assets/tarot/Wands_knight.png"),
+  "Wands_queen": require("../assets/tarot/Wands_queen.png"),
+  "Wands_king": require("../assets/tarot/Wands_king.png"),
+
+  // ===== Cups / Kupalar
+  "Cups_01": require("../assets/tarot/Cups_01.png"),
+  "Cups_02": require("../assets/tarot/Cups_02.png"),
+  "Cups_03": require("../assets/tarot/Cups_03.png"),
+  "Cups_04": require("../assets/tarot/Cups_04.png"),
+  "ups_05": require("../assets/tarot/Cups_05.png"),
+  "Cups_06": require("../assets/tarot/Cups_06.png"),
+  "Cups_07": require("../assets/tarot/Cups_07.png"),
+  "Cups_08": require("../assets/tarot/Cups_08.png"),
+  "Cups_09": require("../assets/tarot/Cups_09.png"),
+  "Cups_10": require("../assets/tarot/Cups_10.png"),
+  "Cups_page": require("../assets/tarot/Cups_page.png"),
+  "Cups_knight": require("../assets/tarot/Cups_knight.png"),
+  "Cups_queen": require("../assets/tarot/Cups_queen.png"),
+  "Cups_king": require("../assets/tarot/Cups_king.png"),
+
+  // ===== Swords / Kılıçlar
+  "Swords_01": require("../assets/tarot/Swords_01.png"),
+  "Swords_02": require("../assets/tarot/Swords_02.png"),
+  "Swords_03": require("../assets/tarot/Swords_03.png"),
+  "Swords_04": require("../assets/tarot/Swords_04.png"),
+  "Swords_05": require("../assets/tarot/Swords_05.png"),
+  "Swords_06": require("../assets/tarot/Swords_06.png"),
+  "Swords_07": require("../assets/tarot/Swords_07.png"),
+  "Swords_08": require("../assets/tarot/Swords_08.png"),
+  "Swords_09": require("../assets/tarot/Swords_09.png"),
+  "Swords_10": require("../assets/tarot/Swords_10.png"),
+  "Swords_page": require("../assets/tarot/Swords_page.png"),
+  "Swords_knight": require("../assets/tarot/Swords_knight.png"),
+  "Swords_queen": require("../assets/tarot/Swords_queen.png"),
+  "Swords_king": require("../assets/tarot/Swords_king.png"),
+
+  // ===== Pentacles / Tılsımlar
+  "Pentacles_01": require("../assets/tarot/Pentacles_01.png"),
+  "Pentacles_02": require("../assets/tarot/Pentacles_02.png"),
+  "Pentacles_03": require("../assets/tarot/Pentacles_03.png"),
+  "Pentacles_04": require("../assets/tarot/Pentacles_04.png"),
+  "Pentacles_05": require("../assets/tarot/Pentacles_05.png"),
+  "Pentacles_06": require("../assets/tarot/Pentacles_06.png"),
+  "Pentacles_07": require("../assets/tarot/Pentacles_07.png"),
+  "Pentacles_08": require("../assets/tarot/Pentacles_08.png"),
+  "Pentacles_09": require("../assets/tarot/Pentacles_09.png"),
+  "Pentacles_10": require("../assets/tarot/Pentacles_10.png"),
+  "Pentacles_page": require("../assets/tarot/Pentacles_page.png"),
+  "Pentacles_knight": require("../assets/tarot/Pentacles_knight.png"),
+  "Pentacles_queen": require("../assets/tarot/Pentacles_queen.png"),
+  "Pentacles_king": require("../assets/tarot/Pentacles_king.png"),
+
+   // ===== kart
+  "back": require("../assets/tarot/back.png"),
+  "bg_tmp": require("../assets/tarot/bg_tmp.png"),
+       
+};
+
+export default tarotImages;

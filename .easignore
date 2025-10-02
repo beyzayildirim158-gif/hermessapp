@@ -1,0 +1,26 @@
+# Exclude large unrelated subprojects and server code
+hermessapp/
+tarot-ai-fb/
+my-firebase-function/
+
+# Python scripts not needed for mobile build
+*.py
+__pycache__/
+
+# Node modules (handled automatically by EAS yarn/npm install step)
+node_modules/
+
+# Logs and misc
+npm-debug.log
+yarn-error.log
+*.log
+
+# Local env
+.env*
+
+# Build outputs
+build/
+dist/
+
+# Misc generated
+*.map
