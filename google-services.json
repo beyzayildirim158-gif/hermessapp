@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "643058049911",
+    "project_id": "hermessapp-5b6ec",
+    "storage_bucket": "hermessapp-5b6ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643058049911:android:6b5e2db89ffa985732b772",
+        "android_client_info": {
+          "package_name": "com.hermesshealing.hermessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643058049911-po3f4qc65n9vmnl7s1umoahqcagbm93i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP4jgD_vI9rVKRS7rO0jTzjSHrOLmjjt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643058049911-po3f4qc65n9vmnl7s1umoahqcagbm93i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
