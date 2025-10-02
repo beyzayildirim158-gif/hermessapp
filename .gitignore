@@ -15,3 +15,8 @@ Thumbs.db
 
 # env (varsa)
 .env
+.env_local
+*.p8
+Secrets/
+*.ipa
+*.aab

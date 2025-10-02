@@ -3,11 +3,11 @@
     "name": "HermessApp",
     "slug": "HermessApp",
     "scheme": "hermessapp",
-    "version": "1.0.0",
+  "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+  "icon": "./assets/app-icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+  "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -16,20 +16,40 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.hermesshealing.hermessapp",
-      "buildNumber": "1.0.0",
-      "infoPlist": { "ITSAppUsesNonExemptEncryption": false }
+      "buildNumber": "2",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.hermesshealing.hermessapp",
-      "versionCode": 1,
+      "versionCode": 3,
       "edgeToEdgeEnabled": true,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/app-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
-    "web": { "favicon": "./assets/favicon.png" },
-    "assetBundlePatterns": ["**/*"],
-    "extra": { "eas": { "projectId": "373a40d7-3654-4794-9dbf-14e97bfc7c8e" } }
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "373a40d7-3654-4794-9dbf-14e97bfc7c8e"
+      }
+    },
+    "owner": "hermesshealing",
+    "plugins": [
+      "expo-font"
+    ],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/373a40d7-3654-4794-9dbf-14e97bfc7c8e"
+    }
   }
 }
