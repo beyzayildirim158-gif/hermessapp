@@ -22,3 +22,6 @@ Secrets/
 *.aab
 hermessapp-5b6ec-firebase-adminsdk-*.json
 ios-build-debug.txt
+
+# IDE
+.idea/
